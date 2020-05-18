@@ -16,6 +16,8 @@ function desafio5(numero)
         let n = 0;
         let total = 0;
 
+        console.log("Valor R$ " + numero);
+
         for(let n=0; valor > 0 && n < notas.length; n++)
         {
             total = Math.floor( valor / notas[n]);
@@ -27,3 +29,5 @@ function desafio5(numero)
 }
 
 desafio5(576);
+desafio5(11257);
+desafio5(503);
